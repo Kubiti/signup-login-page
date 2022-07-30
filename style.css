@@ -41,6 +41,7 @@ input {
     background-color: rgb(158, 129, 177);
     color: white;
     border: 1px solid rgb(158, 129, 177);
+    font-weight: 900;
 }
 
 .btn:hover {
@@ -80,4 +81,32 @@ a {
 
 a:hover {
     color: rgba(85, 51, 107, 0.8);
+}
+
+.desktop {
+    display: none;
+}
+
+@media only screen and (max-width: 580px) {
+    body {
+        /* display: none; */
+    }
+
+    .outer {
+        width: 75%;
+        padding-left: 10px;
+    }
+
+    .mobile {
+        display: none;
+    }
+
+    .desktop {
+        display: inline;
+    }
+
+    img {
+        width: 1em;
+    }
+
 }
