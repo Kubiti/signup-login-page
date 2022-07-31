@@ -17,11 +17,13 @@ input {
     width: 25%;
 }
 
+.desktop {
+    display: none;
+}
+
 @media only screen and (max-width: 500px) {
     .outer {
         height: 95%;
-        /* border-radius: 0; */
-        /* padding: 0 ; */
         padding: 0 20px !important;
     }
     h3 {
@@ -32,6 +34,10 @@ input {
         padding: 10px;
         width: 40%;
         margin-bottom: -5px;
+    }
+
+    .mobile {
+        display: none;
     }
     
 }
