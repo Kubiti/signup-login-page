@@ -81,3 +81,23 @@ a {
 a:hover {
     color: rgba(85, 51, 107, 0.8);
 }
+
+@media only screen and (max-width: 500px) {
+    .outer {
+        margin: 0 10px;
+        padding: 0 15px;
+    }
+
+    .mobile {
+        display: none;
+    }
+
+    .desktop {
+        display: inline-block;
+    }
+
+    .upper {
+        text-transform: capitalize;
+    }
+    
+}

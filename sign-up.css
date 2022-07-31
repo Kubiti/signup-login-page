@@ -25,6 +25,7 @@ input {
     .outer {
         height: 95%;
         padding: 0 20px !important;
+        margin: 0 10px;
     }
     h3 {
         padding-right: 0;
@@ -38,6 +39,14 @@ input {
 
     .mobile {
         display: none;
+    }
+
+    .upper {
+        text-transform: capitalize;
+    }
+
+    .desktop {
+        display: inline-block;
     }
     
 }
